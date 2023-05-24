@@ -42,19 +42,4 @@ public class FeignController {
         }
     }
 
-//    @GetMapping("/showAlls")
-//    public ResponseEntity <CostumerEmailTable> showAllEmailsres() throws Exception {
-//
-//        try {
-//            List<CostumerEmailTable> responseEntity = feignServiceUtil.showAllEmails();
-//            return new ResponseEntity<T>(responseEntity, HttpStatus.OK);
-//        }catch (FeignException feignException) {
-//            return new ResponseEntity(feignException.responseBody(), HttpStatus.valueOf(feignException.status()));
-//        }
-//
-//    }
-
-
-
-
 }
