@@ -1,8 +1,8 @@
 package microservice.KafkaConsumerDocker.services;
 
-import com.example.KafkaConsumerDocker.controller.FeignController;
-import com.example.KafkaConsumerDocker.model.CostumerEmailTable;
-import com.example.KafkaConsumerDocker.model.KafkaMessage;
+import microservice.KafkaConsumerDocker.controller.FeignController;
+import microservice.KafkaConsumerDocker.model.CostumerEmailTable;
+import microservice.KafkaConsumerDocker.model.KafkaMessage;
 import lombok.RequiredArgsConstructor;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
