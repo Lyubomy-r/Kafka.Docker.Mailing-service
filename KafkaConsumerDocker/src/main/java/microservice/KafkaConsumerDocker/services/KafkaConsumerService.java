@@ -8,9 +8,9 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class KafkaConsumerService {
 
-    private final static String  TOPIC_NAME="${spring.kafka.topic.name}";
+    private final String  TOPIC_NAME="${spring.kafka.topic.name}";
 
-    private final static String  TOPIC_EMAIL_NAME ="${spring.kafka.topic.gmail.name}";
+    private final String  TOPIC_EMAIL_NAME ="${spring.kafka.topic.gmail.name}";
 
     @KafkaListener(topics = TOPIC_NAME,
             groupId = "my-application", containerFactory = "bookListener")
